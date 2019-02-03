@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/bg_gradiente_layout1"
+    >
+
+    <ImageView
+        android:id="@+id/header"
+        android:layout_width="800dp"
+        android:layout_height="230dp"
+        android:layout_marginTop="0dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/hotel" />
+
+    <ImageView
+        android:id="@+id/header2"
+        android:layout_width="130dp"
+        android:layout_height="180dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="120dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/mykonos2" />
+
+    <TextView
+        android:id="@+id/texto1"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/header"
+        android:layout_toRightOf="@+id/header2"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:text="Habitación Doble"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:textSize="20dp" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="50dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/header"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_alignParentRight="true"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/flecha" />
+
+    <TextView
+        android:id="@+id/texto_caja2"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/texto1"
+        android:layout_toRightOf="@+id/header2"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:text="HABITACIONES DE ENSUEÑO"
+        android:textColor="#000"
+        android:textSize="12dp" />
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/relative_botones"
+        android:layout_below="@+id/texto_caja2"
+        android:layout_marginTop="0dp"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btnButton1"
+            android:layout_width="165dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/boton"
+            android:text="Reservar"
+            android:textColor="#fff"/>
+
+        <Button
+            android:id="@+id/btnButton2"
+            android:layout_width="165dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="30dp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/boton2"
+            android:text="mas info"
+            android:textColor="#fff"
+
+            />
+
+        <View
+            android:id="@+id/linea"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/btnButton1"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:background="#6255b5"/>
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/relative_iconos"
+        android:layout_below="@+id/relative_botones"
+        android:layout_marginTop="0dp"
+        android:layout_marginLeft="0dp"
+        android:gravity="center"
+        >
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/iconos1"
+            android:layout_marginTop="20dp"
+            >
+
+            <ImageView
+                android:id="@+id/img1"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/responsive"
+                />
+
+            <TextView
+                android:id="@+id/texto_mini1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/img1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text="Opiniones"
+                android:textAlignment="center"
+                android:textColor="#000"
+                android:textSize="8dp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/iconos2"
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@+id/iconos1">
+
+
+            <ImageView
+                android:id="@+id/img2"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/optimization" />
+
+            <TextView
+                android:id="@+id/texto_mini2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/img2"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:text="Interes"
+                android:textAlignment="center"
+                android:textColor="#000"
+                android:textSize="8dp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/iconos3"
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@+id/iconos2">
+
+
+            <ImageView
+                android:id="@+id/img3"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/rss" />
+
+            <TextView
+                android:id="@+id/texto_mini3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/img3"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="20dp"
+                android:text="Wifi"
+                android:textAlignment="center"
+                android:textColor="#000"
+                android:textSize="8dp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/iconos4"
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@+id/iconos3">
+
+
+            <ImageView
+                android:id="@+id/img4"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/location" />
+
+            <TextView
+                android:id="@+id/texto_mini4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/img4"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="20dp"
+                android:text="Localizacion"
+                android:textAlignment="center"
+                android:textColor="#000"
+                android:textSize="8dp" />
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/texto_final"
+        android:layout_marginTop="0dp"
+        android:layout_below="@+id/relative_iconos"
+        android:gravity="center"
+        >
+
+
+        <TextView
+            android:id="@+id/texto_final2"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:text="Hotel de reciente creación  donde el buen gusto y el glamour han presidido desde su apertura"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="12dp"
+            android:gravity="center"
+            />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
+

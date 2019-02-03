@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+        android:paddingTop="30dp"
+        android:background="@drawable/bg_gradiente_layout3"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/caja1"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="30dp">
+
+
+            <ImageView
+                android:id="@+id/ico1"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentLeft="true"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/icon"/>
+
+            <TextView
+                android:id="@+id/texto_caja1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/ico1"
+                android:layout_marginLeft="20dp"
+                android:text="Guitarras"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:textSize="18dp" />
+
+            <ImageView
+                android:id="@+id/flecha1"
+                android:layout_width="88dp"
+                android:layout_height="18dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="178dp"
+                app:srcCompat="@drawable/flecha_blanca" />
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dip"
+            android:background="#666"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="30dp"
+            android:layout_gravity="center"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/caja2"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="30dp">
+
+
+            <ImageView
+                android:id="@+id/ico2"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentLeft="true"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/icon"/>
+
+            <TextView
+                android:id="@+id/texto_caja2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@+id/ico2"
+                android:text="Guitarras españolas"
+                android:textColor="#fff"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/flecha2"
+                android:layout_width="88dp"
+                android:layout_height="18dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="178dp"
+                app:srcCompat="@drawable/flecha_blanca" />
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dip"
+            android:background="#666"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="30dp"
+            android:layout_gravity="center"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/caja3"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="30dp">
+
+
+            <ImageView
+                android:id="@+id/ico3"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentLeft="true"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/icon"/>
+
+            <TextView
+                android:id="@+id/texto_caja3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/ico3"
+                android:layout_marginLeft="20dp"
+                android:text="Bajos"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:textSize="18dp" />
+
+            <ImageView
+                android:id="@+id/flecha3"
+                android:layout_width="88dp"
+                android:layout_height="18dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="178dp"
+                app:srcCompat="@drawable/flecha_blanca" />
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dip"
+            android:background="#666"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="30dp"
+            android:layout_gravity="center"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/caja4"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="30dp">
+
+
+            <ImageView
+                android:id="@+id/ico4"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentLeft="true"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/icon"/>
+
+            <TextView
+                android:id="@+id/texto_caja4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/ico4"
+                android:layout_marginLeft="20dp"
+                android:text="Baterias"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:textSize="18dp" />
+
+            <ImageView
+                android:id="@+id/flecha4"
+                android:layout_width="88dp"
+                android:layout_height="18dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="178dp"
+                app:srcCompat="@drawable/flecha_blanca" />
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dip"
+            android:background="#666"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="30dp"
+            android:layout_gravity="center"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/caja5"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="30dp">
+
+
+            <ImageView
+                android:id="@+id/ico5"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentLeft="true"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/icon"/>
+
+            <TextView
+                android:id="@+id/texto_caja5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/ico5"
+                android:layout_marginLeft="20dp"
+                android:text="Percusion"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:textSize="18dp" />
+
+            <ImageView
+                android:id="@+id/flecha5"
+                android:layout_width="88dp"
+                android:layout_height="18dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="178dp"
+                app:srcCompat="@drawable/flecha_blanca" />
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dip"
+            android:background="#666"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="30dp"
+            android:layout_gravity="center"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/caja6"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="30dp">
+
+
+            <ImageView
+                android:id="@+id/ico6"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentLeft="true"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/icon"/>
+
+            <TextView
+                android:id="@+id/texto_caja6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/ico6"
+                android:layout_marginLeft="20dp"
+                android:text="Pianos"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:textSize="18dp" />
+
+
+            <ImageView
+                android:id="@+id/flecha6"
+                android:layout_width="88dp"
+                android:layout_height="18dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="178dp"
+                app:srcCompat="@drawable/flecha_blanca" />
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dip"
+            android:background="#666"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="30dp"
+            android:layout_gravity="center"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/caja7"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="30dp">
+
+
+            <ImageView
+                android:id="@+id/ico7"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentLeft="true"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/icon"/>
+
+            <TextView
+                android:id="@+id/texto_caja7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/ico7"
+                android:layout_marginLeft="20dp"
+                android:text="Sonido PA"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:textSize="18dp" />
+
+            <ImageView
+                android:id="@+id/flecha7"
+                android:layout_width="88dp"
+                android:layout_height="18dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="178dp"
+                app:srcCompat="@drawable/flecha_blanca" />
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dip"
+            android:background="#666"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="30dp"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+</ScrollView>
+
+
+

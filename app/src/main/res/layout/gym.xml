@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp"
+        android:layout_marginTop="0dp"
+        android:layout_margin="0dp"
+        android:background="@drawable/bg_gradiente_layout2"
+        android:gravity="center">
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/head"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            >
+
+            <ImageView
+                android:id="@+id/ico0"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_alignParentLeft="true"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/menu" />
+
+
+            <TextView
+                android:id="@+id/texto1"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_centerInParent="true"
+                android:text="Gym"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:gravity="center"/>
+
+
+        </RelativeLayout>
+
+
+        <TextView
+            android:id="@+id/texto2"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Makes Me hard"
+            android:textColor="#fff"
+            android:textSize="12dp"
+            android:gravity="center"/>
+
+
+
+        <Button
+            android:id="@+id/boton_inicio"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:background="#fff"
+            android:text="Entrar"
+            android:textColor="#000"/>
+
+
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/paneles"
+            android:layout_below="@+id/boton_inicio"
+            android:layout_marginTop="0dp"
+            android:gravity="center">
+
+
+            <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:id="@+id/caja1"
+                android:background="@drawable/bg_caja1"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                >
+
+
+                <ImageView
+                    android:id="@+id/ico1"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="35dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_alignParentLeft="true"
+                    android:scaleType="fitXY"
+                    app:srcCompat="@drawable/icono_gym_1" />
+
+                <TextView
+                    android:id="@+id/texto_caja1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/ico1"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginLeft="30dp"
+                    android:text="Cross Fit"
+                    android:textColor="#fff"
+                    android:textStyle="bold"
+                    android:textSize="18dp" />
+
+                <ImageView
+                    android:id="@+id/circulo1_1"
+                    android:layout_width="50dp"
+                    android:layout_height="15dp"
+                    android:layout_below="@+id/texto_caja1"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="140dp"
+                    android:layout_alignParentLeft="true"
+                    android:scaleType="fitXY"
+                    app:srcCompat="@drawable/circulos" />
+
+                <ImageView
+                    android:id="@+id/circulo2_1"
+                    android:layout_width="50dp"
+                    android:layout_height="15dp"
+                    android:layout_below="@+id/texto_caja1"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="200dp"
+                    android:layout_alignParentLeft="true"
+                    android:scaleType="fitXY"
+                    app:srcCompat="@drawable/circulos" />
+
+                <ImageView
+                    android:id="@+id/circulo3_1"
+                    android:layout_width="50dp"
+                    android:layout_height="15dp"
+                    android:layout_below="@+id/texto_caja1"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="260dp"
+                    android:layout_alignParentLeft="true"
+                    android:scaleType="fitXY"
+                    app:srcCompat="@drawable/circulos" />
+
+
+            </RelativeLayout>
+
+
+
+            <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:id="@+id/caja2"
+                android:layout_below="@+id/caja1"
+                android:background="@drawable/bg_caja2"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                >
+
+
+                <ImageView
+                    android:id="@+id/ico2"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="35dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_alignParentLeft="true"
+                    android:scaleType="fitXY"
+                    app:srcCompat="@drawable/icono_gym_2" />
+
+                <TextView
+                    android:id="@+id/texto_caja2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/ico2"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginLeft="30dp"
+                    android:text="Kick Boxing"
+                    android:textColor="#fff"
+                    android:textStyle="bold"
+                    android:textSize="18dp" />
+
+                <ImageView
+                    android:id="@+id/circulo1_2"
+                    android:layout_width="50dp"
+                    android:layout_height="15dp"
+                    android:layout_below="@+id/texto_caja2"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="140dp"
+                    android:layout_alignParentLeft="true"
+                    android:scaleType="fitXY"
+                    app:srcCompat="@drawable/circulos" />
+
+                <ImageView
+                    android:id="@+id/circulo2_2"
+                    android:layout_width="50dp"
+                    android:layout_height="15dp"
+                    android:layout_below="@+id/texto_caja2"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="200dp"
+                    android:layout_alignParentLeft="true"
+                    android:scaleType="fitXY"
+                    app:srcCompat="@drawable/circulos" />
+
+                <ImageView
+                    android:id="@+id/circulo3_2"
+                    android:layout_width="50dp"
+                    android:layout_height="15dp"
+                    android:layout_below="@+id/texto_caja2"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="260dp"
+                    android:layout_alignParentLeft="true"
+                    android:scaleType="fitXY"
+                    app:srcCompat="@drawable/circulos" />
+
+
+            </RelativeLayout>
+
+            <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:id="@+id/caja3"
+                android:layout_below="@+id/caja2"
+                android:background="@drawable/bg_caja5"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                >
+
+
+                <ImageView
+                    android:id="@+id/ico3"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="35dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_alignParentLeft="true"
+                    android:scaleType="fitXY"
+                    app:srcCompat="@drawable/icono_gym_3" />
+
+                <TextView
+                    android:id="@+id/texto_caja3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/ico3"
+                    android:textStyle="bold"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginLeft="30dp"
+                    android:text="Kenpo Karate"
+                    android:textColor="#fff"
+                    android:textSize="18dp" />
+
+                <ImageView
+                    android:id="@+id/circulo1_3"
+                    android:layout_width="50dp"
+                    android:layout_height="15dp"
+                    android:layout_below="@+id/texto_caja3"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="140dp"
+                    android:layout_alignParentLeft="true"
+                    android:scaleType="fitXY"
+                    app:srcCompat="@drawable/circulos" />
+
+                <ImageView
+                    android:id="@+id/circulo2_3"
+                    android:layout_width="50dp"
+                    android:layout_height="15dp"
+                    android:layout_below="@+id/texto_caja3"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="200dp"
+                    android:layout_alignParentLeft="true"
+                    android:scaleType="fitXY"
+                    app:srcCompat="@drawable/circulos" />
+
+                <ImageView
+                    android:id="@+id/circulo3_3"
+                    android:layout_width="50dp"
+                    android:layout_height="15dp"
+                    android:layout_below="@+id/texto_caja3"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="260dp"
+                    android:layout_alignParentLeft="true"
+                    android:scaleType="fitXY"
+                    app:srcCompat="@drawable/circulos" />
+
+
+            </RelativeLayout>
+
+
+            <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:id="@+id/caja4"
+                android:layout_below="@+id/caja3"
+                android:background="@drawable/bg_caja3"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                >
+
+
+                <ImageView
+                    android:id="@+id/ico4"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="35dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_alignParentLeft="true"
+                    android:scaleType="fitXY"
+                    app:srcCompat="@drawable/icono_gym_4" />
+
+                <TextView
+                    android:id="@+id/texto_caja4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/ico4"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginLeft="30dp"
+                    android:text="Power Pump"
+                    android:textColor="#fff"
+                    android:textSize="18dp"
+                    android:textStyle="bold"/>
+
+                <ImageView
+                    android:id="@+id/circulo1_4"
+                    android:layout_width="50dp"
+                    android:layout_height="15dp"
+                    android:layout_below="@+id/texto_caja4"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="140dp"
+                    android:layout_alignParentLeft="true"
+                    android:scaleType="fitXY"
+                    app:srcCompat="@drawable/circulos" />
+
+                <ImageView
+                    android:id="@+id/circulo2_4"
+                    android:layout_width="50dp"
+                    android:layout_height="15dp"
+                    android:layout_below="@+id/texto_caja4"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="200dp"
+                    android:layout_alignParentLeft="true"
+                    android:scaleType="fitXY"
+                    app:srcCompat="@drawable/circulos" />
+
+                <ImageView
+                    android:id="@+id/circulo3_4"
+                    android:layout_width="50dp"
+                    android:layout_height="15dp"
+                    android:layout_below="@+id/texto_caja4"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="260dp"
+                    android:layout_alignParentLeft="true"
+                    android:scaleType="fitXY"
+                    app:srcCompat="@drawable/circulos" />
+
+
+            </RelativeLayout>
+
+
+            <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:id="@+id/caja5"
+                android:layout_below="@+id/caja4"
+                android:background="@drawable/bg_caja4"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                >
+
+
+                <ImageView
+                    android:id="@+id/ico5"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="35dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_alignParentLeft="true"
+                    android:scaleType="fitXY"
+                    app:srcCompat="@drawable/icono_gym_5" />
+
+                <TextView
+                    android:id="@+id/texto_caja5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/ico5"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginLeft="30dp"
+                    android:text="Muay Thai"
+                    android:textColor="#fff"
+                    android:textSize="18dp" />
+
+                <ImageView
+                    android:id="@+id/circulo1_5"
+                    android:layout_width="50dp"
+                    android:layout_height="15dp"
+                    android:layout_below="@+id/texto_caja5"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="140dp"
+                    android:layout_alignParentLeft="true"
+                    android:scaleType="fitXY"
+                    app:srcCompat="@drawable/circulos" />
+
+                <ImageView
+                    android:id="@+id/circulo2_5"
+                    android:layout_width="50dp"
+                    android:layout_height="15dp"
+                    android:layout_below="@+id/texto_caja5"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="200dp"
+                    android:layout_alignParentLeft="true"
+                    android:scaleType="fitXY"
+                    app:srcCompat="@drawable/circulos" />
+
+                <ImageView
+                    android:id="@+id/circulo3_5"
+                    android:layout_width="50dp"
+                    android:layout_height="15dp"
+                    android:layout_below="@+id/texto_caja5"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="270dp"
+                    android:layout_alignParentLeft="true"
+                    android:scaleType="fitXY"
+                    app:srcCompat="@drawable/circulos" />
+
+
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>
